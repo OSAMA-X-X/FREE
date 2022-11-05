@@ -1,25 +1,17 @@
-import os, platform
+import os,re,sys,platform
  
-try:
+os.system('git pull')
  
-        import requests
- 
-except:
- 
-        os.system('pip2 install requests')
- 
- 
+os.system('pkg install play-audio')
  
 import requests
  
+ 
+ 
 bit = platform.architecture()[0]
  
-if bit == "64bit":
+if bit == '64bit':
  
-        import UXA
+    from Free import ud
  
- 
- 
-elif bit == "32bit":
- 
-        import UXA
+    Main()
