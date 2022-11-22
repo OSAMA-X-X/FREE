@@ -12,6 +12,6 @@ bit = platform.architecture()[0]
  
 if bit == '64bit':
  
-    from UXA1 import ud
+    from UXA6 import ud
  
     Main()
